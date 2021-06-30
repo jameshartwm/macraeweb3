@@ -1,0 +1,96 @@
+:root {
+    --color1: #b6dcff;
+    --color2: #4ca1bc;
+    --color3: #828286;
+}
+
+* {
+    font-family: 'Noto Sans HK', sans-serif !important;
+}
+
+html {
+    background-color: var(--color1);
+}
+
+.myVerticalAlign {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menuRow {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: var(--color2);
+    color: white;
+}
+
+.menuRow a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuRow a:hover {
+    color: var(--color3);
+}
+
+.mainContent {
+    max-width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+    background-color: white;
+}
+
+.mainContent .row {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.mainContent p {
+    text-align: justify;
+}
+
+.imgContainer {
+    padding: 25px;
+}
+
+.imgContainer img {
+    display: block;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.topContainer {
+    background-color: var(--color1);
+}
+
+.skillCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.skillCard img {
+    border-radius: 5px;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.skillCard p {
+    text-align: justify;
+}
+
+h3 {
+    color: var(--color2);
+    font-weight: bold;
+}
+
+.myFooter {
+    padding: 10px;
+    background-color: var(--color3);
+}
