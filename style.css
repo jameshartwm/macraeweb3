@@ -5,11 +5,11 @@
 }
 
 * {
-    font-family: 'Noto Sans HK', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 html {
-    background-color: var(--color1);
+    /*background-color: var(--color1);*/
 }
 
 .myVerticalAlign {
@@ -19,25 +19,30 @@ html {
 
 .menuRow {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    color: var(--color2);
+}
+
+.menuRow button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: var(--color2);
+}
+
+.menuRow button:hover {
     background-color: var(--color2);
     color: white;
-}
-
-.menuRow a {
-    text-decoration: none;
-    color: white;
-}
-
-.menuRow a:hover {
-    color: var(--color3);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .mainContent {
     max-width: 70%;
     margin-top: 25px;
     margin-bottom: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 25px;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;*/
     background-color: white;
 }
 
@@ -52,20 +57,23 @@ html {
 
 .imgContainer {
     padding: 25px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .imgContainer img {
     display: block;
-    max-height:450px;
+    max-width: 100%;
     width: auto;
     height: auto;
     margin: auto;
     padding: 0;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .topContainer {
-    background-color: var(--color1);
+    /*background-color: var(--color1);*/
 }
 
 .skillCard {
@@ -79,18 +87,59 @@ html {
     border-radius: 5px;
     max-width: 100%;
     margin-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .skillCard p {
     text-align: justify;
 }
 
+.portfolioCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.portfolioCard img {
+    border-radius: 5px;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
 h3 {
     color: var(--color2);
-    font-weight: bold;
 }
 
 .myFooter {
     padding: 10px;
-    background-color: var(--color3);
+    background-color: black;
+    color: white;
+}
+
+.mySpacer {
+    width: 100%;
+    height: 20px;
+}
+
+.progress {
+    height: 25px !important;
+    border-radius: 5px !important;
+}
+
+.progress-bar {
+    background-color: var(--color2) !important;
+    height: 25px !important;
+}
+
+@media (max-width: 1280px) {
+    .mainContent {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 900px) {
+    .mainContent {
+        max-width: 100%;
+    }
 }
