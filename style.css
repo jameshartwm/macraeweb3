@@ -1,12 +1,14 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
 :root {
     --color1: #b6dcff;
     --color2: #4ca1bc;
     --color3: #828286;
 }
 
-* {
+body {
     font-family: 'Montserrat', sans-serif !important;
-}
+}*/
 
 .topContainer {
     padding: 0 !important;
@@ -47,6 +49,7 @@
     background-color: var(--color2) !important;
     color: white !important;
     border-radius: 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .navbar-nav > a.active {
@@ -79,8 +82,7 @@
 
 .imgContainer img {
     display: block;
-    max-width: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
     padding: 0;
@@ -147,6 +149,48 @@ h3 {
     height: 25px !important;
 }
 
+.myEmail {
+    background-color: white;
+    color: var(--color2) !important;
+    width: fit-content !important;
+    border-radius: 10px;
+    text-decoration: none !important;
+    margin: auto;
+    padding: 5px;
+    font-size: 125%;
+}
+
+.myEmail:hover {
+    color: white !important;
+    background-color: var(--color2);
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.mySocial {
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.myFacebook {
+    background-color: #4267B2;
+    color: white;
+}
+
+.myTwitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.myInsta {
+    background-color: #e9754e;
+    color: white;
+}
+
 @media (max-width: 1280px) {
     .mainContent {
         max-width: 85%;
@@ -157,12 +201,20 @@ h3 {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .mainContent {
         max-width: 100%;
     }
 
     #innerMenuBar {
         width: 100% !important;
+    }
+
+    .navbar-nav a {
+        color: var(--color2) !important;
+        border-radius: 10px !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
     }
 }
