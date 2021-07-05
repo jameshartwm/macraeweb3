@@ -122,6 +122,19 @@ body {
     margin-bottom: 8px;
 }
 
+.myCaro {
+    max-width: 60% !important;
+    margin: auto;
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.myCaroInner {
+    margin: auto;
+}
+
 h3 {
     color: var(--color2);
 }
@@ -204,6 +217,13 @@ h3 {
     #innerMenuBar {
         width: 85% !important;
     }
+
+    .myCaro {
+        max-width: 80% !important;
+        margin: auto;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -225,6 +245,13 @@ h3 {
 
     .cardContainer {
         max-width: 100%;
+    }
+
+    .myCaro {
+        max-width: 100% !important;
+        margin: auto;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
     }
     
 }
