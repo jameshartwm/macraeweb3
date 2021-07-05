@@ -8,10 +8,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif !important;
+    width: 100% !important;
 }
 
 .topContainer {
     padding: 0 !important;
+    width: 100% !important;
 }
 
 .myVerticalAlign {
@@ -66,8 +68,7 @@ body {
 }
 
 .mainContent .row {
-    padding-left: 25px;
-    padding-right: 25px;
+   padding: 0 !important;
 }
 
 .mainContent p {
@@ -75,9 +76,11 @@ body {
 }
 
 .imgContainer {
-    padding: 25px;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 .imgContainer img {
@@ -85,9 +88,36 @@ body {
     width: 100%;
     height: auto;
     margin: auto;
-    padding: 0;
-    border-radius: 20px;
+    padding: 0 !important;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.imgContainer .imgContent {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+    max-width: 100%; /* Full width */
+    height: 100%;
+    padding: 0 !important; /* Some padding */
+    text-align: center;
+    color: white !important;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    margin: auto !important;
+    align-content: center;
+}
+
+.imgContent h1 {
+    color: white !important;
+    max-width: 100%;
+}
+
+.imgContent h3 {
+    color: white !important;
+    max-width: 100%;
 }
 
 .skillCard {
