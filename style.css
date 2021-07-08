@@ -30,8 +30,6 @@ body {
 
 #innerMenuBar {
     width: 70% !important;
-    padding-left: 35px;
-    padding-right: 35px;
 }
 
 .navbar-brand {
@@ -128,6 +126,7 @@ body {
     margin: 10px;
     padding: 5px;
     max-width: 100% !important;
+    background-color: white;
 }
 
 .skillCard img {
@@ -176,6 +175,7 @@ h3 {
 
 .footerMargin {
     margin: auto !important;
+    padding: 10px !important;
 }
 
 .mySpacer {
@@ -245,7 +245,7 @@ h3 {
     }
 
     #innerMenuBar {
-        width: 85% !important;
+        width: 80% !important;
     }
 
     .myCaro {
@@ -281,8 +281,9 @@ h3 {
     }
 
     .skillCard {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
+        margin: auto !important;
+        margin-bottom: 10px !important;
+        max-width: 90% !important;
     }
 
     .cardContainer {
