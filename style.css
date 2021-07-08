@@ -62,13 +62,17 @@ body {
 
 .mainContent {
     max-width: 70%;
-    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     margin-bottom: 25px;
     background-color: white;
+    padding: 0 !important;
 }
 
 .mainContent .row {
    padding: 0 !important;
+   margin: 0 !important;
 }
 
 .mainContent p {
@@ -86,11 +90,11 @@ body {
 .imgContainer img {
     display: block;
     width: 100%;
-    height: auto;
+    max-height: 300px;
     margin: auto;
     padding: 0 !important;
-    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    object-fit: cover;
 }
 
 .imgContainer .imgContent {
@@ -103,7 +107,6 @@ body {
     padding: 0 !important; /* Some padding */
     text-align: center;
     color: white !important;
-    border-radius: 10px;
     left: 0;
     right: 0;
     margin: auto !important;
@@ -124,12 +127,10 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 10px;
     padding: 5px;
-    border-radius: 10px;
-    max-width: inherit;
+    max-width: 100% !important;
 }
 
 .skillCard img {
-    border-radius: 5px;
     max-width: 100%;
     margin-bottom: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -139,21 +140,16 @@ body {
     text-align: justify;
 }
 
-.portfolioCard {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
+.mobileTextContainer {
+    margin: auto !important;
 }
 
-.portfolioCard img {
-    border-radius: 5px;
-    max-width: 100%;
-    margin-bottom: 8px;
+.mobileImgContainer img{
+    max-height: 400px !important;
 }
 
 .myCaro {
-    max-width: 70% !important;
+    max-width: 850px !important;
     margin: auto;
     padding-left: 75px !important;
     padding-right: 75px !important;
@@ -176,6 +172,10 @@ h3 {
     max-width: 100%;
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+.footerMargin {
+    margin: auto !important;
 }
 
 .mySpacer {
@@ -241,7 +241,7 @@ h3 {
 
 @media (max-width: 1280px) {
     .mainContent {
-        max-width: 85%;
+        max-width: 80%;
     }
 
     #innerMenuBar {
@@ -273,6 +273,16 @@ h3 {
         margin-left: 10px;
         margin-right: 10px;
         text-align: center;
+    }
+
+    .progress {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .skillCard {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 
     .cardContainer {
