@@ -239,6 +239,11 @@ h3 {
     color: white;
 }
 
+.contactEmailDiv a {
+    max-width: max-content;
+    margin: auto;
+}
+
 @media (max-width: 1280px) {
     .mainContent {
         max-width: 80%;
