@@ -1,9 +1,11 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
 :root {
-    --color1: #b6dcff;
-    --color2: #4ca1bc;
-    --color3: #828286;
+    --color1: #566246;
+    --color2: #7a9cc6;
+    --color3: #9d5c63;
+    --color4: #C6B9CD;
+    --color5: #6ABEA7;
 }
 
 body {
@@ -11,9 +13,62 @@ body {
     width: 100% !important;
 }
 
+.section1 {
+    background-color: var(--color4) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.section1 h3 {
+    color: black;
+}
+
+.section2 {
+    background-color: var(--color5);
+    padding: 0 !important;
+    margin: 0 !important;
+    color: white;
+}
+
+.section2 h3 {
+    color: white;
+}
+
+.inPageLink {
+    color: var(--color3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inPageLink:hover {
+    color: var(--color3);
+    text-decoration: underline;
+}
+
 .topContainer {
     padding: 0 !important;
     width: 100% !important;
+}
+
+.mainContainer {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.mainContent {
+    max-width: 70% !important;
+    margin: auto !important;
+    background-color: none;
+    padding: 0 !important;
+}
+
+.mainContent .row {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.mainContent p {
+    text-align: justify;
 }
 
 .myVerticalAlign {
@@ -34,7 +89,7 @@ body {
 
 .navbar-brand {
     color: var(--color2) !important;
-    font-size: 200% !important;
+    font-size: 225% !important;
     margin-right: 50px !important;
 }
 
@@ -56,25 +111,6 @@ body {
     background-color: var(--color2) !important;
     color: white !important;
     border-radius: 10px !important;
-}
-
-.mainContent {
-    max-width: 70%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 25px;
-    background-color: white;
-    padding: 0 !important;
-}
-
-.mainContent .row {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-
-.mainContent p {
-    text-align: justify;
 }
 
 .imgContainer {
@@ -139,6 +175,10 @@ body {
     text-align: justify;
 }
 
+.skillCard h3{
+    color: var(--color2) !important;
+}
+
 .mobileTextContainer {
     margin: auto !important;
 }
@@ -183,9 +223,16 @@ h3 {
     height: 20px;
 }
 
+.mySmallSpacer {
+    width: 100%;
+    height: 10px;
+}
+
 .progress {
     height: 25px !important;
     border-radius: 5px !important;
+    max-width: 300px !important;
+    margin: auto;
 }
 
 .progress-bar {
@@ -194,7 +241,7 @@ h3 {
 }
 
 .myEmail {
-    background-color: white;
+    background-color: none;
     color: var(--color2) !important;
     width: fit-content !important;
     border-radius: 10px;
@@ -212,7 +259,7 @@ h3 {
 }
 
 .mySocial {
-    border-radius: 50%;
+    border-radius: 10px;
     width: 60px !important;
     height: 60px !important;
     border: none;
@@ -221,7 +268,7 @@ h3 {
 }
 
 .mySocial:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
 .myTwitter {
