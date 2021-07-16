@@ -11,16 +11,30 @@
 body {
     font-family: 'Montserrat', sans-serif !important;
     width: 100% !important;
+    min-height: max-content !important;
+    background-image: url("imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .section1 {
     padding: 0 !important;
     margin: 0 !important;
+    background-color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
 }
 
 .section2 {
     padding: 0 !important;
     margin: 0 !important;
+    background-color: var(--color2) !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    color: white;
+}
+
+.section2 h3 {
+    color: white !important
 }
 
 .inPageLink {
@@ -219,6 +233,11 @@ h3 {
     height: 10px;
 }
 
+.myBigSpacer {
+    width: 100%;
+    height: 70px;
+}
+
 .progress {
     height: 25px !important;
     border-radius: 5px !important;
@@ -308,6 +327,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    body {
+        background-repeat: repeat !important;
+        background-attachment: scroll !important;
+        background-size: 800px;
+    }
+
     .mainContent {
         max-width: 100% !important;
     }
@@ -350,6 +375,5 @@ h3 {
 
     .handShakeImg img {
         border-radius: 0 !important;
-    }
-    
+    }    
 }
