@@ -127,7 +127,7 @@ body {
 .imgContainer img {
     display: block;
     width: 100%;
-    max-height: 300px;
+    max-height: 350px;
     margin: auto;
     padding: 0 !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -151,13 +151,30 @@ body {
 }
 
 .imgContent h1 {
-    color: white !important;
     max-width: 100%;
 }
 
 .imgContent h3 {
     color: white !important;
     max-width: 100%;
+}
+
+.imgContent a {
+    text-decoration: none !important;
+    padding: 5px;
+    border-style: solid;
+    background-color: var(--color2) !important;
+    border-color: var(--color2) !important;
+    color: white !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.imgContent a:hover {
+    color: var(--color2) !important;
+    border-color: white !important;
+    background-color: white !important;
+
 }
 
 .skillCard {
@@ -251,21 +268,22 @@ h3 {
 }
 
 .myEmail {
-    background-color: none;
-    color: var(--color2) !important;
+    background-color: var(--color2);
+    color: white !important;
     width: fit-content !important;
     border-radius: 10px;
     text-decoration: none !important;
     margin: auto;
     padding: 5px;
     font-size: 125%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .myEmail:hover {
-    color: white !important;
-    background-color: var(--color2);
+    color: var(--color2) !important;
+    background-color: white !important;
     margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
 }
 
 .mySocial {
