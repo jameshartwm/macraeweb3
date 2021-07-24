@@ -9,6 +9,10 @@ body {
   background-size: cover;
 }
 
+.wordHighlight {
+  color: #2f70e9;
+}
+
 .section1 {
   padding: 0 !important;
   margin: 0 !important;
@@ -19,7 +23,7 @@ body {
 .section2 {
   padding: 0 !important;
   margin: 0 !important;
-  background-color: #7a9cc6 !important;
+  background-color: #2f70e9 !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
   color: white;
 }
@@ -78,25 +82,25 @@ body {
 }
 
 .navbar-brand {
-  color: #7a9cc6 !important;
+  color: #2f70e9 !important;
   font-size: 225% !important;
   margin-right: 50px !important;
 }
 
 .navbar-nav a {
-  color: #7a9cc6 !important;
+  color: #2f70e9 !important;
   border-radius: 10px !important;
   margin-left: 10px;
   margin-right: 10px;
 }
 .navbar-nav a:hover {
-  background-color: #7a9cc6 !important;
+  background-color: #2f70e9 !important;
   color: white !important;
   border-radius: 10px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .navbar-nav a.active {
-  background-color: #7a9cc6 !important;
+  background-color: #2f70e9 !important;
   color: white !important;
   border-radius: 10px !important;
 }
@@ -143,14 +147,14 @@ body {
   text-decoration: none !important;
   padding: 5px;
   border-style: solid;
-  background-color: #7a9cc6 !important;
-  border-color: #7a9cc6 !important;
+  background-color: #2f70e9 !important;
+  border-color: #2f70e9 !important;
   color: white !important;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .imgContainer .imgContent a:hover {
-  color: #7a9cc6 !important;
+  color: #2f70e9 !important;
   border-color: white !important;
   background-color: white !important;
 }
@@ -171,7 +175,7 @@ body {
   text-align: justify;
 }
 .skillCard h3 {
-  color: #7a9cc6 !important;
+  color: #2f70e9 !important;
 }
 
 .mobileTextContainer {
@@ -198,7 +202,7 @@ body {
 }
 
 h3 {
-  color: #7a9cc6;
+  color: #2f70e9;
 }
 
 .myFooter {
@@ -238,12 +242,12 @@ h3 {
 }
 
 .progress-bar {
-  background-color: #7a9cc6 !important;
+  background-color: #2f70e9 !important;
   height: 25px !important;
 }
 
 .myEmail {
-  background-color: #7a9cc6;
+  background-color: #2f70e9;
   color: white !important;
   width: fit-content !important;
   border-radius: 10px;
@@ -254,7 +258,7 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .myEmail:hover {
-  color: #7a9cc6 !important;
+  color: #2f70e9 !important;
   background-color: white !important;
   margin: auto;
 }
@@ -330,7 +334,7 @@ h3 {
   }
 
   .navbar-nav a {
-    color: #7a9cc6 !important;
+    color: #2f70e9 !important;
     border-radius: 10px !important;
     margin-left: 10px;
     margin-right: 10px;
