@@ -137,8 +137,12 @@ body {
 .skillCard p {
   text-align: justify;
 }
-.skillCard h3 {
+.skillCard h1 {
   color: #5d94fb !important;
+}
+
+.skillIcon {
+  color: #fbc65d;
 }
 
 .mobileTextContainer {
@@ -200,7 +204,7 @@ h3 {
 .progress {
   height: 25px !important;
   border-radius: 5px !important;
-  max-width: 300px !important;
+  max-width: 100% !important;
   margin: auto;
 }
 
