@@ -21,6 +21,7 @@ body {
 
 .headImg {
   max-height: 300px;
+  max-width: 100% !important;
   border-radius: 25px;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
