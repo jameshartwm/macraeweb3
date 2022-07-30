@@ -47,6 +47,36 @@ body
     h3 
         color: white !important
 
+.headerSection
+    padding: 0 !important
+    margin: 0 !important
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important
+    color: white
+    min-height: 500px
+    h3 
+        color: white !important
+    background-image: url(../imgs/headimg.jpg)
+    background-color: 0 !important
+    background-position: center
+    background-size: cover
+
+.headerText
+    background-color: rgba(0,0,0,0.5)
+    padding: 0 !important
+    margin: 0
+    margin-left: -80px
+    min-height: 500px
+    width: 50%
+    display: flex
+    align-items: center
+    transform: skew(20deg)
+    h3, h1
+        transform: skew(-20deg)
+
+.headerTextInner
+    margin: 40x
+    margin-left: 80px
+
 .inPageLink 
     color: $color3
     text-decoration: none
@@ -272,6 +302,16 @@ h3
         margin-left: 10px
         margin-right: 10px
         text-align: center
+
+    .headerText
+        width: 100%
+        transform: skew(0)
+        margin-left: 0
+        h3, h1
+            transform: skew(0)
+
+    .headerTextInner
+        margin: 25px
 
     .progress
         max-width: 80%

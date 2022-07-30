@@ -46,6 +46,41 @@ body {
   color: white !important;
 }
 
+.headerSection {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  color: white;
+  min-height: 500px;
+  background-image: url(../imgs/headimg.jpg);
+  background-color: 0 !important;
+  background-position: center;
+  background-size: cover;
+}
+.headerSection h3 {
+  color: white !important;
+}
+
+.headerText {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 !important;
+  margin: 0;
+  margin-left: -80px;
+  min-height: 500px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  transform: skew(20deg);
+}
+.headerText h3, .headerText h1 {
+  transform: skew(-20deg);
+}
+
+.headerTextInner {
+  margin: 40x;
+  margin-left: 80px;
+}
+
 .inPageLink {
   color: #fbc65d;
   text-decoration: none;
@@ -281,11 +316,9 @@ h3 {
   .mainContent {
     max-width: 80% !important;
   }
-
   #innerMenuBar {
     width: 80% !important;
   }
-
   .myCaro {
     max-width: 80% !important;
     margin: auto;
@@ -301,15 +334,12 @@ h3 {
     background-attachment: scroll !important;
     background-size: 800px;
   }
-
   .mainContent {
     max-width: 100% !important;
   }
-
   #innerMenuBar {
     width: 100% !important;
   }
-
   .navbar-nav a {
     color: #5d94fb !important;
     border-radius: 10px !important;
@@ -317,22 +347,29 @@ h3 {
     margin-right: 10px;
     text-align: center;
   }
-
+  .headerText {
+    width: 100%;
+    transform: skew(0);
+    margin-left: 0;
+  }
+  .headerText h3, .headerText h1 {
+    transform: skew(0);
+  }
+  .headerTextInner {
+    margin: 25px;
+  }
   .progress {
     max-width: 80%;
     margin: auto;
   }
-
   .skillCard {
     margin: auto !important;
     margin-bottom: 10px !important;
     max-width: 90% !important;
   }
-
   .cardContainer {
     max-width: 100%;
   }
-
   .myCaro {
     max-width: 100% !important;
     margin: auto;
@@ -341,7 +378,6 @@ h3 {
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
-
   .handShakeImg img {
     border-radius: 0 !important;
   }
