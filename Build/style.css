@@ -377,10 +377,11 @@ h3 {
 
   .headerText {
     width: 100%;
+    padding: 10px !important;
   }
 
   .headerTextInner {
-    margin: 25px;
+    margin: auto;
   }
 
   .progress {
