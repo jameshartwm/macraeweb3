@@ -48,34 +48,68 @@ body
         color: white !important
 
 .headerSection
-    padding: 0 !important
-    margin: 0 !important
+    padding: 25 !important
+    margin: auto
+    box-shadow: auto 4px 8px 0 rgba(0,0,0,0.2) !important
+    color: white
+    min-height: 500px
+    h3 
+        color: white !important
+    background-image: url(../imgs/headimg.jpg)
+    background-position: center
+    background-size: cover
+
+.headerSectionC
+    padding: 25 !important
+    margin: auto
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important
     color: white
     min-height: 500px
     h3 
         color: white !important
     background-image: url(../imgs/headimg.jpg)
-    background-color: 0 !important
+    background-position: center
+    background-size: cover
+
+.headerSectionP
+    padding: 25 !important
+    margin: auto
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important
+    color: white
+    min-height: 500px
+    h3 
+        color: white !important
+    background-image: url(../imgs/headimg.jpg)
     background-position: center
     background-size: cover
 
 .headerText
     background-color: rgba(0,0,0,0.5)
-    padding: 0 !important
-    margin: 0
-    margin-left: -80px
+    padding: 50px !important
+    margin: 0 !important
     min-height: 500px
-    width: 50%
+    width: 100%
     display: flex
     align-items: center
-    transform: skew(20deg)
-    h3, h1
-        transform: skew(-20deg)
 
 .headerTextInner
-    margin: 40x
-    margin-left: 80px
+    padding-left: 80px
+    padding-right: 80px
+
+.headerLink
+    background-color: $color3
+    color: white !important
+    width: fit-content !important
+    border-radius: 10px
+    text-decoration: none !important
+    margin: auto
+    padding: 8px
+    font-size: 125%
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    &:hover
+        color: white !important
+        background-color: $color2 !important
+        margin: auto
 
 .inPageLink 
     color: $color3
@@ -215,21 +249,6 @@ h3
     background-color: $color2 !important
     height: 25px !important
 
-.headerLink
-    background-color: $color3
-    color: white !important
-    width: fit-content !important
-    border-radius: 10px
-    text-decoration: none !important
-    margin: auto
-    padding: 8px
-    font-size: 125%
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
-    &:hover
-        color: $color2 !important
-        background-color: white !important
-        margin: auto
-
 .mySocial
     border-radius: 10px
     width: 60px !important
@@ -305,10 +324,6 @@ h3
 
     .headerText
         width: 100%
-        transform: skew(0)
-        margin-left: 0
-        h3, h1
-            transform: skew(0)
 
     .headerTextInner
         margin: 25px

@@ -47,13 +47,12 @@ body {
 }
 
 .headerSection {
-  padding: 0 !important;
-  margin: 0 !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  padding: 25 !important;
+  margin: auto;
+  box-shadow: auto 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
   color: white;
   min-height: 500px;
   background-image: url(../imgs/headimg.jpg);
-  background-color: 0 !important;
   background-position: center;
   background-size: cover;
 }
@@ -61,24 +60,64 @@ body {
   color: white !important;
 }
 
+.headerSectionC {
+  padding: 25 !important;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  color: white;
+  min-height: 500px;
+  background-image: url(../imgs/headimg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.headerSectionC h3 {
+  color: white !important;
+}
+
+.headerSectionP {
+  padding: 25 !important;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  color: white;
+  min-height: 500px;
+  background-image: url(../imgs/headimg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.headerSectionP h3 {
+  color: white !important;
+}
+
 .headerText {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0 !important;
-  margin: 0;
-  margin-left: -80px;
+  padding: 50px !important;
+  margin: 0 !important;
   min-height: 500px;
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: center;
-  transform: skew(20deg);
-}
-.headerText h3, .headerText h1 {
-  transform: skew(-20deg);
 }
 
 .headerTextInner {
-  margin: 40x;
-  margin-left: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.headerLink {
+  background-color: #fbc65d;
+  color: white !important;
+  width: fit-content !important;
+  border-radius: 10px;
+  text-decoration: none !important;
+  margin: auto;
+  padding: 8px;
+  font-size: 125%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.headerLink:hover {
+  color: white !important;
+  background-color: #5d94fb !important;
+  margin: auto;
 }
 
 .inPageLink {
@@ -248,23 +287,6 @@ h3 {
   height: 25px !important;
 }
 
-.headerLink {
-  background-color: #fbc65d;
-  color: white !important;
-  width: fit-content !important;
-  border-radius: 10px;
-  text-decoration: none !important;
-  margin: auto;
-  padding: 8px;
-  font-size: 125%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.headerLink:hover {
-  color: #5d94fb !important;
-  background-color: white !important;
-  margin: auto;
-}
-
 .mySocial {
   border-radius: 10px;
   width: 60px !important;
@@ -316,9 +338,11 @@ h3 {
   .mainContent {
     max-width: 80% !important;
   }
+
   #innerMenuBar {
     width: 80% !important;
   }
+
   .myCaro {
     max-width: 80% !important;
     margin: auto;
@@ -334,12 +358,15 @@ h3 {
     background-attachment: scroll !important;
     background-size: 800px;
   }
+
   .mainContent {
     max-width: 100% !important;
   }
+
   #innerMenuBar {
     width: 100% !important;
   }
+
   .navbar-nav a {
     color: #5d94fb !important;
     border-radius: 10px !important;
@@ -347,29 +374,30 @@ h3 {
     margin-right: 10px;
     text-align: center;
   }
+
   .headerText {
     width: 100%;
-    transform: skew(0);
-    margin-left: 0;
   }
-  .headerText h3, .headerText h1 {
-    transform: skew(0);
-  }
+
   .headerTextInner {
     margin: 25px;
   }
+
   .progress {
     max-width: 80%;
     margin: auto;
   }
+
   .skillCard {
     margin: auto !important;
     margin-bottom: 10px !important;
     max-width: 90% !important;
   }
+
   .cardContainer {
     max-width: 100%;
   }
+
   .myCaro {
     max-width: 100% !important;
     margin: auto;
@@ -378,6 +406,7 @@ h3 {
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
+
   .handShakeImg img {
     border-radius: 0 !important;
   }
