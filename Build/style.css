@@ -60,34 +60,6 @@ body {
   color: white !important;
 }
 
-.headerSectionC {
-  padding: 25 !important;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
-  color: white;
-  min-height: 500px;
-  background-image: url(../imgs/headimg.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.headerSectionC h3 {
-  color: white !important;
-}
-
-.headerSectionP {
-  padding: 25 !important;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
-  color: white;
-  min-height: 500px;
-  background-image: url(../imgs/headimg.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.headerSectionP h3 {
-  color: white !important;
-}
-
 .headerText {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 50px !important;
